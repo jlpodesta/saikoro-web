@@ -1,0 +1,21 @@
+h2{ 
+     font-family: "stylotype";
+     font-style: italic;
+     font-size:larger;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+} 
+
+
+@font-face {
+    font-family: "stylotype";
+    src: url("../fonts/Stylotype.ttf");
+}
