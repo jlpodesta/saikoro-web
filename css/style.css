@@ -1,8 +1,21 @@
 @font-face{
     font-family: "signature";
-    src: url("../fonts/Signatrue.ttf") format("truetype");
+    src: url("../fonts/Signatrue.ttf") format("truetype");    
+}
+@font-face{
+    font-family: "stylotype";
+    src: url("../fonts/Stylotype.ttf") format("truetype");
 }
 .logo {
     width: 5%;   
     height: auto;
+}
+.titulo1, .titulo3, .titulo5  {
+    font-family: "signature";
+}
+.titulo2, .titulo4, .titulo6 {
+    font-family: "stylotype"
+}
+h1 {
+    display: inline;
 }
